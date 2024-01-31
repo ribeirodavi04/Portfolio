@@ -1,53 +1,88 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-html{
-    line-height: 1.15;
+html {
+  line-height: 1.15;
 }
 
-body{
-    margin: 0;
-    font-family: "Roboto", sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #000F16;
-    text-align: left;
-    background-color: #fff;
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000f16;
+  text-align: left;
+  background-color: #fff;
 }
 
 /*Navbar*/
+.navbar {
+  height: 80px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
 
+.navbar-light {
+  background-color: #f8f9fa;
+}
+
+.logo-navbar {
+  font-family: "PT Mono", monospace;
+  letter-spacing: 2px;
+}
+
+.navbar-items a {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+.navbar-items a:hover {
+  color: #fff;
+}
+
+.navbar-brand:hover {
+  text-decoration: none;
+}
 
 /*Home*/
-.home-section{
-    min-height: 100vh;
-    background-color: #03A9F4;
+.home-section {
+  min-height: 100vh;
+  background-color: #03a9f4;
 }
 
-.home-name{
-    -webkit-text-stroke: 4px #fff;
+.home-name {
+  -webkit-text-stroke: 4px #fff;
 }
 
-.about-img{
-    margin-left: -100px;
-    right: -60px;
+.about-img {
+  margin-left: -100px;
+  right: -60px;
 }
 
-.btn-white{
-    padding: 10px 25px;
-    border-radius: 100px;
-    background-color: #fff;
-    color: #000F16;
+.btn-white {
+  padding: 10px 25px;
+  border-radius: 100px;
+  background-color: #fff;
+  color: #000f16;
 }
 
-.hero-text{
-    margin-top: 150px;
+.hero-text {
+  margin-top: 150px;
 }
 
-.typed-cursor{
-    font-size: 45px;
-    color: #fff;
+.typed-cursor {
+  font-size: 45px;
+  color: #fff;
 }
 
+/*sobre mim*/
+.sobremim {
+}
+
+.apresentacao {
+  border-right: 1px solid rgba(128, 128, 128, 0.158);
+}
+.apresentacao p {
+  font-size: 16px;
+}
