@@ -8,7 +8,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -59,10 +59,12 @@ body {
   margin-left: -100px;
   right: -60px;
 }
-
-.btn-white {
+.btn-personalizado{
   padding: 10px 25px;
   border-radius: 100px;
+}
+.btn-white {
+
   background-color: #fff;
   color: #000f16;
 }
@@ -78,11 +80,20 @@ body {
 
 /*sobre mim*/
 .sobremim {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.apresentacao {
-  border-right: 1px solid rgba(128, 128, 128, 0.158);
-}
+
 .apresentacao p {
   font-size: 16px;
+}
+.img-stacks img:hover{
+  cursor: pointer;
+  height: 75px;
+  margin-top: -5px;
+  transition: 0.3s;
+  transition: 0.3s;
 }
