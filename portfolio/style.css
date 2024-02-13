@@ -17,7 +17,8 @@ body {
   background-color: #fff;
 }
 
-/*Navbar*/
+
+/* navbar section */
 .navbar {
   height: 80px;
   transition: background-color 0.3s, box-shadow 0.3s;
@@ -37,6 +38,7 @@ body {
   color: #fff;
   text-decoration: none;
 }
+
 .navbar-items a:hover {
   color: #fff;
 }
@@ -45,26 +47,29 @@ body {
   text-decoration: none;
 }
 
-/*Home*/
-.home-section {
+
+/* home section */
+section.home {
   min-height: 100vh;
   background-color: #03a9f4;
 }
 
-.home-name {
+section.home h1 {
   -webkit-text-stroke: 4px #fff;
 }
 
-.about-img {
+.box-img-davi {
   margin-left: -100px;
   right: -60px;
 }
+
 .btn-personalizado{
   padding: 10px 25px;
   border-radius: 100px;
+  border: none;
 }
-.btn-white {
 
+.btn-white {
   background-color: #fff;
   color: #000f16;
 }
@@ -78,18 +83,19 @@ body {
   color: #fff;
 }
 
-/*sobre mim*/
-.sobremim {
-  height: 70vh;
+
+/* about-me section */
+section.about-me {
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-
 .apresentacao p {
   font-size: 16px;
 }
+
 .img-stacks img:hover{
   cursor: pointer;
   height: 75px;
@@ -97,3 +103,5 @@ body {
   transition: 0.3s;
   transition: 0.3s;
 }
+
+
