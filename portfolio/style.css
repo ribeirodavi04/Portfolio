@@ -4,6 +4,7 @@
 
 html {
   line-height: 1.15;
+  margin: 0;
 }
 
 body {
@@ -106,10 +107,6 @@ section.about-me {
 
 
 /* projects section */
-.box-project{
-
-}
-
 .img-project{
   width: 100%;
   border-radius: 10px;
@@ -117,4 +114,11 @@ section.about-me {
 
 .icons-projects img{
   height: 35px;
+}
+
+
+/* contact section */
+footer{
+  height: 100%;
+  background-color: #03a9f4;
 }
