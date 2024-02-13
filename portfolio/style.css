@@ -105,3 +105,16 @@ section.about-me {
 }
 
 
+/* projects section */
+.box-project{
+
+}
+
+.img-project{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.icons-projects img{
+  height: 35px;
+}
