@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  font-family:  "Montserrat", sans-serif;
+
 }
 
 html {
@@ -9,13 +11,11 @@ html {
 
 body {
   margin: 0;
-  font-family: "Inter", sans-serif;;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #000f16;
   text-align: left;
-  background-color: #fff;
 }
 
 
@@ -31,12 +31,17 @@ body {
 
 .logo-navbar {
   font-family: "PT Mono", monospace;
+  color: #40A2D8;
   letter-spacing: 2px;
+}
+
+.logo-navbar span{
+  color: #000;
 }
 
 .navbar-items a {
   font-size: 18px;
-  color: #fff;
+  color: #F0EDCF;
   text-decoration: none;
 }
 
@@ -52,11 +57,15 @@ body {
 /* home section */
 section.home {
   min-height: 100vh;
-  background-color: #03a9f4;
+  background-color: #0B60B0;
+}
+
+section.home h2, h3{
+  color: #F0EDCF;
 }
 
 section.home h1 {
-  -webkit-text-stroke: 4px #fff;
+  -webkit-text-stroke: 4px #F0EDCF;
 }
 
 .box-img-davi {
@@ -107,6 +116,10 @@ section.about-me {
 
 
 /* projects section */
+.box-project{
+  border-radius: 10px;
+}
+
 .img-project{
   width: 100%;
   border-radius: 10px;
@@ -120,5 +133,73 @@ section.about-me {
 /* contact section */
 footer{
   height: 100%;
-  background-color: #03a9f4;
+  background-color: #0B60B0;
+  color: #F0EDCF;
 }
+
+
+/* customs */
+.button-custom {
+  appearance: none;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 500;
+  height: 50px;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 14px 30px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.button-custom-blue{
+  background-color: #0B60B0;
+  color: #F0EDCF;
+}
+
+.button-custom-blue{
+  background-color: #0B60B0;
+  color: #F0EDCF;
+}
+
+.button-custom-white{
+  background-color: #F0EDCF;
+  color: #000;
+}
+
+.button-custom-blue:hover {
+  background-color: #40A2D8;
+  box-shadow: rgba(0, 0, 0, .05) 0 5px 30px, rgba(0, 0, 0, .05) 0 1px 4px;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: .35s;
+}
+
+.button-custom-white:hover{
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, .05) 0 5px 30px, rgba(0, 0, 0, .05) 0 1px 4px;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: .35s;
+}
+
+.button-custom:hover:after {
+  opacity: .5;
+}
+
