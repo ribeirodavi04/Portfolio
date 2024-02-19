@@ -95,11 +95,12 @@ section.home h1 {
 
 
 /* about-me section */
-section.about-me {
+#about-me {
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 .apresentacao p {
@@ -203,3 +204,18 @@ footer{
   opacity: .5;
 }
 
+
+/*animation */
+.animated{
+  opacity: 0; 
+  transform: translateY(100px); 
+  transition: opacity 1.5s, transform 1.5s; 
+}
+
+
+/* responsividade */
+@media (min-width: 768px) { 
+
+
+  
+} 
